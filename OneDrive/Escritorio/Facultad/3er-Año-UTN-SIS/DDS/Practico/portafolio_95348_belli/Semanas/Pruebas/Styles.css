@@ -1,0 +1,66 @@
+html {
+    background-color: aqua;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: rgb(255, 8, 0);
+    align-items: center;
+}
+
+#parrafo1 {
+    display: flex;
+    border-radius: 100px;
+    border-color: black;
+    color: rgb(255, 8, 8);
+    height: 300px;
+    width: 10%;
+    padding: 10px;
+    border-color: black;
+    background-color: black;
+    
+}
+.nombre-empresa {
+    margin-right: 100px;
+}
+
+nav a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+nav a:hover{
+    color: white;
+}
+
+.img-logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.container {
+    background-color: red;
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width:700px) {
+    header {flex-direction: column;
+    }
+}

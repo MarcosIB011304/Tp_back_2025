@@ -1,0 +1,48 @@
+/* Consultacss.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .consulta-container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    background-color: #228B22;
+    color: white;
+    padding: 1rem;
+    margin: 0 0 2rem 0;
+  }
+  
+  .consulta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .consulta-table th,
+  .consulta-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .consulta-button {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .consulta-button:hover {
+    background-color: #1C86EE;
+  }
+  

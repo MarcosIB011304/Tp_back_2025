@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue; 
+}
+
+table {
+    background-color: #e9d66b;
+    border: 5px;
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+#filtros {
+    background-color: #76eec6;
+}
+
+#floatLeft2 {
+    float:right;
+}
+
+#floatLeft{
+    float: right;
+}
+
+.animacion:hover {
+    background-color: #A569BD;
+}
+
+#imagen{
+    background: url(https://cartoonpng.com/wp-content/uploads/2023/06/1-46-scaled.jpg);
+
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    height: 500px;
+}
+
+form {background-color: blue;}
+
+nav {
+    background-color: #e9d66b;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimerPag</title>
+    <link rel="stylesheet" href="Styles.css" type="text/css">
+</head>
+<body>
+
+    <h1>SECCIONES</h1>
+    <header>    
+        header: definir el encabezado de una seccion o del documento entero
+    </header>    
+
+    <nav>
+        nav: define una seccion de navegacion
+    </nav>
+
+    <main>
+        main: Define el contenido principal de un documento
+    </main>
+
+    <article>
+        article: define contenido independiente y autocontenido,
+        como un articulo o publicacion de blog
+    </article>
+
+    <section>
+        section: define una seccion generica de un documento
+    </section>
+
+    <aside>
+        aside:define contenido secundario, como barra lateral,
+        que no esta directamente relacionado con el pricipal
+    </aside>
+
+    <footer>
+        define el pie de una seccion o documento.
+    </footer>
+    <hr>
+    <h2>
+        Etiquetas basicas
+    </h2>
+
+    <hr> <!--lina horizontal -->
+
+    <p id="parrafo">Parrafo</p>
+
+    <br> <!-- retorno de carro-->
+
+    <a href="https://www.youtube.com" target="_blank"> define enlaces o links </a>
+
+    <!-- <img src="https://logodownload.org/wp-content/uploads/2016/10/Boca-Juniors-logo-escudo.png" alt="texto alternativo"> -->
+
+    <ol>
+        <li>lista ordenada formato es ol(li(item)li)ol </li>
+        <li>este es el segundo item</li>
+    </ol>
+
+    
+    <ul>
+        <li>lista desordenada formato es ul(li(item)li)ul </li>
+        <li>este es el segundo item</li>
+    </ul>
+
+    <form action="" method="get">
+        <label for="iname">Nombre:</label>
+        <input type="text" name="name"  id="iname" placeholder="Escriba Aqui"> <br>
+        <label for="sname">sobrenombre</label>
+        <input type="text" name="name"> <br>
+        <input type="submit" value="Enviar">
+        <a href="https://www.youtube.com" target="_blank">youtube</a>
+        
+    </form>
+    <label for="Ejemplo">Ejemplo</label>
+    <select id="Ejemplo" required> 
+        <option value="">Sleccione</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Masculino">Masculino</option>
+    </select> <br>
+
+    <input type="checkbox">
+    
+
+    <!--  <span>, <strong>, <small>, <del>, <i> Etiquetas en línea 
+        Estas etiquetas se utilizan para afectar elementos de texto 
+        específicos dentro de un párrafo u o contenedor de texto sin 
+        afectar a otros elementos circundantes. Las etiquetas en línea
+         son útile aplicar estilos y formatos específicos a partes del 
+         texto, como cambiar el color, la fuente, el tam estilo del
+          texto, agregar efectos de texto como cursiva o subrayado,
+           o incluso insertar elemento multimedia, como imágenes o videos,
+            dentro del texto.-->    
+
+
+    <h2>Atributos comunes de etiquetas</h2>
+    <p>
+        
+        id: Permite asignar un identificador único a un elemento, que luego puede ser utilizado para referenciarlo en CSS o JavaScript. <br>
+        class: Se usa para aplicar a un grupo de elementos relacionados mediante CSS. Puede asignarse a múltiples elementos y se puede utilizar para aplicar estilos o realizar acciones en JavaScript. <br>
+        src: Especifica la ruta de origen (URL) para recursos como imágenes, scripts, archivos de audio o video, que se utilizarán en la página. <br>
+        href: Se utiliza en elementos de enlace  a  para especificar la URL de destino a la que se enlaza el elemento. <br>
+        alt: Proporciona un texto alternativo que se muestra si el elemento no se puede cargar, como en el caso de una imagen que falte. <br>
+        title: Proporciona un texto que se muestra como información sobre herramientas cuando el usuario pasa el cursor sobre el elemento. <br>
+        type:Define el tipo de contenido para elementos como  script  o  input , por ejemplo,para scripts o para hojas de estilo. <br>
+        value:Utilizado en elementos de formulario como  input  para especificar el valor inicial del control. <br>
+        placeholder: Se utiliza en elementos de formulario para proporcionar un texto de ejemplo dentro del campo de entrada, que desaparece cuando se comienza a escribir.<br> 
+        required: Especifica que un campo de entrada en un formulario es obligatorio de completar antes de enviarlo.<br> 
+        autofocus: Hace que un campo de entrada reciba automáticamente el enfoque cuando se carga la página, lo que permite al usuario comenzar a escribir inmediatamente.<br> 
+        autocomplete: Controla si un campo de entrada de formulario debe tener activada la función de autocompletado del navegador.<br> 
+        download: Utilizado en enlaces  a>  para indicar que el destino del enlace es para descargar un archivo en lugar de navegar a él.<br> 
+        media: Utilizado en elementos  source>  dentro de un elemento multimedia  video>  o  audio>  para especificar la URL de origen de los archivos multimedia alternativos.<br> 
+        draggable: Permite a los usuarios arrastrar y soltar elementos HTML utilizando eventos de arrastrar y soltar en JavaScript.<br>
+        contenteditable: Permite que el contenido de un elemento sea editable por el usuario, convirtiendo un elemento HTML en un área de texto editable.<br>
+        spellcheck: Controla si el navegador debe verificar la ortografía del texto en un elemento editable.<br> 
+        placeholder: Este atributo se utiliza en los elementos de formulario  input>  y  textarea>  para proporcionar un texto de marcador de posición que se muestra cuando el campo está vacío.<br> 
+        for: Se utiliza en las etiquetas para asociarlas con elementos de formulario específicos mediante el uso del atributo "id". Esto ayuda a mejorar la accesibilidad y la usabilidad del formulario al hacer clic en la etiqueta para activar el campo asociado.
+
+    </p>
+
+    <label>Deportes:</label><br>        
+    <input type="checkbox" id="futbol" name="deporte" value="futbol">        
+    <label for="futbol">Fútbol</label><br>        
+    <input type="checkbox" id="basket" name="deporte" value="basket">        
+    <label for="basket">basket</label><br>        
+    <input type="checkbox" id="tenis" name="deporte" value="tenis">        
+    <label for="tenis">Tenis</label><br><br>
+
+    
+    <table border="2px">
+        <tr> <!-- fila -->
+            <th> <!-- columna --> 
+                Nombre
+            </th>
+            <th>Apellido</th>
+        </tr>
+        <tr>
+            <td>Kiko</td>
+            <td>palomares</td>
+        </tr>
+    </table>
+    </body>
+
+</html>
