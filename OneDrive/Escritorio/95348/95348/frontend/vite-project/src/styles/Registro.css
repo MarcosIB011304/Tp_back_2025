@@ -1,0 +1,102 @@
+/* Registro.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.registro-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.registro-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-form .form-group {
+  margin-bottom: 15px;
+}
+
+.registro-form .form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.registro-form .form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.registro-form .form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.registro-form .form-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.registro-form .form-submit {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.registro-form .form-submit:hover {
+  background-color: #218838;
+}
+
+.registro-form .form-submit:focus {
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.back-button {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
+
+.back-button:focus {
+  outline: none;
+}
