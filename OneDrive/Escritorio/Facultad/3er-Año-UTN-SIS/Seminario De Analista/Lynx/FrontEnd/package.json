@@ -1,0 +1,12 @@
+{
+  "name": "proyectoseminario-prototipodeinterfaz",
+  "version": "1.0.0",
+  "description": "proyecto-seminario-prototipo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Belli",
+  "license": "ISC",
+  "keywords": []
+}
