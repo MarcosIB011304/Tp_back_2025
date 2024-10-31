@@ -1,0 +1,22 @@
+{
+  "vendor" : "Amazon",
+  "product" : "Corretto",
+  "jdk_version_major" : 8,
+  "jdk_version" : "1.8.0_422",
+  "suggested_sdk_name" : "corretto-1.8",
+  "shared_index_aliases" : [ "corretto-1.8.0_422", "corretto-8", "corretto-1.8", "1.8.0_422", "8", "1.8" ],
+  "packages" : [ {
+    "os" : "windows",
+    "arch" : "x86_64",
+    "url" : "https://corretto.aws/downloads/resources/8.422.05.1/amazon-corretto-8.422.05.1-windows-x64-jdk.zip",
+    "package_type" : "zip",
+    "unpack_prefix_filter" : "jdk1.8.0_422",
+    "package_root_prefix" : "jdk1.8.0_422",
+    "package_to_java_home_prefix" : "",
+    "archive_file_name" : "amazon-corretto-8.422.05.1-windows-x64-jdk.zip",
+    "install_folder_name" : "corretto-1.8.0_422",
+    "archive_size" : 121870208,
+    "unpacked_size" : 224706650,
+    "sha256" : "cdeeb2653927d8fcb0b031e06114775018777d9b97ddf53c7e249711b94be0d8"
+  } ]
+}

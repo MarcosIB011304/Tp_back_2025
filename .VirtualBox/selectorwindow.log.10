@@ -1,0 +1,24 @@
+00:00:00.123255 VirtualBox GUI VM Selector Window 7.0.6 r155176 win.amd64 (Jan 11 2023 16:38:38) release log
+00:00:00.123257 Log opened 2023-11-12T16:27:25.998561200Z
+00:00:00.123257 Build Type: release
+00:00:00.123260 OS Product: Windows 11
+00:00:00.123261 OS Release: 10.0.22621
+00:00:00.123261 OS Service Pack: 
+00:00:00.178393 DMI Product Name: ZenBook UX425UG_Q408UG
+00:00:00.184509 DMI Product Version: 1.0
+00:00:00.184529 Firmware type: UEFI
+00:00:00.185079 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.185099 Host RAM: 7577MB (7.3GB) total, 3446MB (3.3GB) available
+00:00:00.185102 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.185102 Process ID: 20644
+00:00:00.185103 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.185241 Qt version: 5.15.2
+00:00:00.185892 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.200880 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.443048 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:05.262089 GUI: UIMediumEnumerator: Medium with key={{18cd7460-82c0-4937-9d1e-6a898fdfc3e1}} created
+00:03:08.712220 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:50.203086 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:53.319334 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:16:44.112836 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:16:44.113521 Log rotated - Log started 2023-11-12T16:27:25.998561200Z

@@ -1,0 +1,79 @@
+{
+	"name": "maven-dependency-explorer",
+	"displayName": "Maven dependency explorer",
+	"description": "Explore depency of java maven project",
+	"repository": "https://github.com/Dhruvkumarshah/maven-dependency-explorer.git",
+	"version": "1.0.17",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:maven-dependency-explorer.exploer"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "maven-dependency-explorer.exploer",
+				"title": "Maven dependency explorer"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceFilename == pom.xml",
+					"command": "maven-dependency-explorer.exploer",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js",
+		"vscode:prepublish": "npm run esbuild-base -- --minify",
+		"esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node",
+		"esbuild": "npm run esbuild-base -- --sourcemap",
+		"esbuild-watch": "npm run esbuild-base -- --sourcemap --watch",
+		"test-compile": "tsc -p ./",
+		"postinstall": "modclean -r"
+	},
+	"devDependencies": {
+		"@types/node": "14.x",
+		"@types/vscode": "^1.57.0",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
+		"esbuild": "^0.17.18",
+		"eslint": "^7.27.0",
+		"typescript": "^4.3.2",
+		"modclean": "^3.0.0-beta.1"
+	},
+	"dependencies": {
+		"graphlib-dot": "^0.6.4"
+	},
+	"vsce": {
+		"dependencies": false,
+		"yarn": false
+	},
+	"publisher": "dhruv",
+	"__metadata": {
+		"id": "518129cb-a0fa-4e05-9f5c-7e0def1543a1",
+		"publisherId": "ea004351-bec9-441f-b509-402404d7fe60",
+		"publisherDisplayName": "Dhruvkumar Shah",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1724167266486,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

@@ -1,0 +1,13 @@
+[user]
+	name = Marcos Ignacio Belli
+	mail = 95348@sistemas.frc.utn.edu.ar
+	email = 95348@sistemas.frc.utn.edu.ar
+[gui]
+	recentrepo = C:/Users/marco/Marcos
+[core]
+	editor = \"C:\\Users\\marco\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	autocrlf = input
+[credential "https://labsys.frc.utn.edu.ar"]
+	provider = generic
+[http]
+	postBuffer = 524288000

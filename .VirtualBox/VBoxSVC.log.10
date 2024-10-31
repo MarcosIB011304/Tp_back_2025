@@ -1,0 +1,100 @@
+00:00:00.002813 main     VirtualBox COM Server 7.0.6 r155176 win.amd64 (Jan 11 2023 16:38:38) release log
+00:00:00.002815 main     Log opened 2023-11-09T19:08:58.456164400Z
+00:00:00.002816 main     Build Type: release
+00:00:00.002820 main     OS Product: Windows 11
+00:00:00.002821 main     OS Release: 10.0.22621
+00:00:00.002821 main     OS Service Pack: 
+00:00:00.063826 main     DMI Product Name: ZenBook UX425UG_Q408UG
+00:00:00.074851 main     DMI Product Version: 1.0
+00:00:00.074863 main     Firmware type: UEFI
+00:00:00.075308 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.075328 main     Host RAM: 7577MB (7.3GB) total, 3915MB (3.8GB) available
+00:00:00.075332 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.075332 main     Process ID: 6444
+00:00:00.075333 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.136402          VirtualBox: object creation starts
+00:00:00.136701          Home directory: 'C:\Users\marco\.VirtualBox'
+00:00:00.136884          Installed Drivers:
+00:00:00.140127            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.6.5176)
+00:00:00.141700            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.6.5176)
+00:00:00.142339            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.6.5176)
+00:00:00.143182            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.6.5176)
+00:00:00.158143          Loading settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.161508          usbLibGetDevices: Starting USB device enumeration
+00:00:00.161794          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.161845          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.183785          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.183824          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x30c0)
+00:00:00.183880          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.284432          netIfIsWireless: CreateFile on '\\.\{B2219C9E-3334-4921-B421-DBF64CDADDF3}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.291682          HostDnsMonitor: initializing
+00:00:00.298406          HostDnsMonitor: updating information
+00:00:00.298434          HostDnsMonitor: old information
+00:00:00.298434            no server entries
+00:00:00.298435            no domain set
+00:00:00.298435            no search string entries
+00:00:00.298436          HostDnsMonitor: new information
+00:00:00.298436            server 1: 192.168.0.1
+00:00:00.298436            no domain set
+00:00:00.298437            no search string entries
+00:00:00.301666          VD: VDInit finished with VINF_SUCCESS
+00:00:00.303566          Loading settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox" with version "1.19-windows"
+00:00:00.304416          VirtualBox: object created
+00:00:00.372094          Saving settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.377306          Finished saving settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml"
+00:00:00.377633          Saving settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.382831          Finished saving settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml"
+00:00:00.383180          Saving settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.388362          Finished saving settings file "C:\Users\marco\.VirtualBox\VirtualBox.xml"
+00:00:01.800688          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.853329          Launched VM: 2662964688 pid: 4764 (0x129c) frontend: GUI/Qt name: SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik
+00:00:02.877741          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:07.341046          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:07.755591          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:09.063103          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:09.257902          netIfIsWireless: CreateFile on '\\.\{B2219C9E-3334-4921-B421-DBF64CDADDF3}' failed with rcWin=2 (0x2) - ignoring
+00:00:09.399535          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:09.496424          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:10.387269          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:10.435358          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:02:22.031722          Saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox" with version "1.19-windows"
+00:02:22.036346          Finished saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox"
+00:02:22.046822          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:02:23.401563          Saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox" with version "1.19-windows"
+00:02:23.415024          Finished saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox"
+00:02:23.424415          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:09:07.430251 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:07.433643 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:09:07.452962 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:10:41.416101 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:10:41.416448 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:10:41.416544 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:10:41.435431 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:10:41.435493 USBPROXY USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x30c0)
+00:12:13.490447 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:12:13.493459 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:12:13.513005 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:15:19.589904 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:15:19.590226 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:15:19.590324 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:15:19.609687 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:15:19.609771 USBPROXY USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x30c0)
+00:17:56.545097          Saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox" with version "1.19-windows"
+00:17:56.551015          Finished saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox"
+00:17:56.567240          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:18:38.092551          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:18:39.426952          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:18:39.570640          Saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox" with version "1.19-windows"
+00:18:39.575333          Finished saving settings file "C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik.vbox"
+00:18:39.596118          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:18:41.103878          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:19:01.291627 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:19:01.291944 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:19:01.292049 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&315b279c&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:19:01.311169 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:19:03.749215 main     VirtualBox: object deletion starts
+00:19:03.750500 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\marco\VirtualBox VMs\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik\SOP_2023_2K2_Belli_Chas_Rocca_Romanutti_Rottino_Mitnik_1.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:19:03.755785 main     HostDnsMonitor: shutting down ...
+00:19:03.756061 main     HostDnsMonitor: shut down
+00:19:03.759831 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:19:03.760593 main     VirtualBox: object deleted
